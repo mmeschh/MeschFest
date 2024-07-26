@@ -1,0 +1,83 @@
+@import url(https://gist.github.com/linjunpop/5779614#file-helvetica-nenu-ultralight-css);
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.boton{
+    text-align: center;
+    font-family: Helvetica;
+    font-style: italic;
+    font-weight: 400;
+    font-size: small;
+    display: block;
+    padding: 10px;
+    background-color: #0000d1;
+    color: rgba(255, 238, 0);
+    text-decoration: none;
+    border-radius: 20px;
+    width: 100px;
+    transition: 0.2s;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 70px;
+}
+
+.boton:hover{
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+    color: #0000d1;
+    background-color: black;
+}
+
+img{
+    align-content: center;
+    width:100%;
+}
+
+/*main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}*/
+
+.Mancha{
+    animation-name: Mancha;
+    width: 250px;
+    height: 250px;
+    background-image: url(../imagenes/Icono.png);
+    margin: auto;
+    margin-top: 5%;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+/*@keyframes Mancha{
+     from{background-size: 220px;}
+     to{background-size: 300px;}
+}*/
+
+video{
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+
+footer{
+    font-family: Helvetica;
+    font-weight: 150;
+    font-size: small;
+    color: #0000d1;
+    text-align: center;
+    margin-top: 2.5%;
+    /*display: block;
+    padding: 1%;
+    margin-top: 6%;
+    background-color: #0000d1;*/
+}
